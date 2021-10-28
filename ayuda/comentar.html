@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cascadascss/informacion.css">
+    <link rel="stylesheet" href="../cascadascss/normalise.ser.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ultra" />
+    <link rel="shortcut icon" href="../logo/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2a174a6d4c.js" crossorigin="anonymous"></script>
+    <title>Comentar | U KNOW.COM</title>
+</head>
+<body>
+    <header class="atencion_cliente katbet">
+        <div class="principal_tr">
+            <div class="tiitle" id="knowcolinas">
+                <i class="fas fa-bars" style="cursor: pointer;"></i>
+            </div>
+            <div class="tilpiup">
+               <a href="ayuda.html"> UknowColinas</a>
+            </div>
+<script>
+    const knowcolinas = document.getElementById('knowcolinas');
+    knowcolinas.addEventListener('click',()=>{
+        document.querySelector('.menu_nav').classList.toggle('act')
+    });
+</script>
+        </div>
+    </header>
+    <header class="atencion_cliente">
+        <div class="principal">
+            <div class="tiitle">
+                Hola, te damos la bienvenida a la página de Ayuda
+            </div>
+            <div class="tilpiup">
+               <a href="ayuda.html"> UknowColinas</a>
+            </div>
+
+        </div>
+    </header>
+        <div class="menu_nav ">
+            <div class="menu_ayuda"><span class="informacion" data-i="inform" id="activ2"><a href="contactanos.html">Contactanos</a></span><i class="fas fa-angle-right"></i></div>
+            <div class="menu_ayuda"><span class="informacion" data-i="inform" id="activ3"><a href="t_condiciones.html">Terminos y condiciones</a></span><i class="fas fa-angle-right"></i></div>
+            <div class="menu_ayuda"><span class="informacion" data-i="inform" id="activ4"><a href="privacidad.html">Privacidad</a></span><i class="fas fa-angle-right"></i></div>
+            <div class="menu_ayuda"><span class="informacion" data-i="inform" id="activ5"><a href="quienes_somos.html">Quienes somos</a></span><i class="fas fa-angle-right"></i></div>
+            <div class="menu_ayuda"><span class="informacion" data-i="inform" id="activ6"><a href="ac_deuknow.html">Acerca de U KNOW</a></span><i class="fas fa-angle-right"></i></div>
+            <div class="menu_ayuda"><span class="informacion" data-i="inform" id="activ7"><a href="comentar.html">Comentar</a></span><i class="fas fa-angle-right"></i></div>
+            <div class="menu_ayuda"><span class="informacion" data-i="inform" id="activ8"><a href="informacion_legal.html">Informacion legal</a></span><i class="fas fa-angle-right"></i></div>
+
+    </div>
+    <div class="title"><h1>Ayudanos a mejorar nuestra Sitio Web</h1></div>
+    <div class="comenta__c">
+        <form onsubmit="return false" class="formulario_r">
+            <div class="content_h">Ayudanos a mejorar</div>
+            <div class="content_o">Es muy importante que nos diga los fallos de la pagina ó
+                tambien cosas que te gustaria que cambiaramos de la pagina, tema de diseño 
+                mejoramiento al navegar, Queremos tu opinion comenta a aquí.
+            </div>
+           <div class="form_class">
+            <div class="comentar">
+                <label for="nombre">Tu nombre</label>
+                <input type="text" id="nombre" placeholder="Nombre" class="input">
+               </div>
+               <div class="comentar">
+                <label for="comentar">Escribe tu comentario</label>
+                <textarea name="comentar" id="comentar" cols="10" rows="1" placeholder="Comentar" class="input"></textarea>
+               </div>
+               <button type="submit" onclick="enviar();">Enviar</button>
+           </div>
+        </form>
+    </div>
+</body>
+</html>
